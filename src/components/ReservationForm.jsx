@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import '../styles/reservationForm.css'; // Adjust the path as necessary
-
+import '../styles/ReservationForm.css'; // Adjust the path as necessary
 const ReservationForm = () => {
   const [formData, setFormData] = useState({
     name: '', email: '', date: '', time: '', guests: ''
