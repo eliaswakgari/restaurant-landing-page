@@ -1,0 +1,34 @@
+ *{
+          box-sizing: border-box;
+                  margin: 0;
+                  padding: 0;
+                  
+ }
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #222;
+  transition: background-image 0.5s ease-in-out;
+  overflow-x: hidden;
+}
+
+/* Dark mode background */
+body.dark {
+  background-image: url('./assets/bg-dark.jpg');
+  color: #eee;
+}
+
+/* Optional overlay to improve readability */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* subtle dark overlay */
+  z-index: -1;
+}

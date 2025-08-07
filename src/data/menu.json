@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Lamb Tibs Deluxe",
+    "description": "Tender Ethiopian-style lamb sautéed with onions, garlic, and rosemary.",
+    "price": "250 ETB",
+    "image": "/bg.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Gourmet Shiro",
+    "description": "Slow-cooked chickpea stew served with fluffy injera and fresh salad.",
+    "price": "180 ETB",
+    "image": "/assets/shiro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mixed Veg Platter",
+    "description": "A colorful selection of spiced seasonal vegetables with injera.",
+    "price": "200 ETB",
+    "image": "/assets/veg-platter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kitfo Fusion",
+    "description": "Ethiopian minced beef tartare with a gourmet twist, served mild or spicy.",
+    "price": "270 ETB",
+    "image": "/assets/kitfo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Avocado Spritz Juice",
+    "description": "Creamy avocado blend with a splash of citrus and mint.",
+    "price": "90 ETB",
+    "image": "/assets/avocado-juice.jpg"
+  }
+]

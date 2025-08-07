@@ -1,0 +1,94 @@
+.chef-section {
+  padding: 4rem 2rem;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.chef-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1100px;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: background 0.3s;
+}
+
+.chef-image {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.chef-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.chef-info {
+  flex: 2;
+  padding: 2rem;
+  color: #333;
+}
+
+.chef-info h2 {
+  font-size: 2rem;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+.chef-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.chef-info blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #555;
+  border-left: 4px solid #e67e22;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+.signature {
+  text-align: right;
+  font-weight: 600;
+  color: #999;
+}
+
+/* Dark mode */
+body.dark .chef-container {
+  background: rgba(30, 30, 30, 0.85);
+  color: #eee;
+}
+
+body.dark .chef-info blockquote {
+  color: #ccc;
+  border-left-color: #ffa94d;
+}
+
+body.dark .signature {
+  color: #bbb;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .chef-container {
+    flex-direction: column;
+  }
+
+  .chef-image {
+    height: 250px;
+  }
+
+  .chef-info {
+    padding: 1.5rem;
+  }
+}
