@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import testimonials from '../data/testimonials.json';
-import '../styles/testimonials.css'; // Ensure you have the correct path to your CSS file
+import '../styles/Testimonials.css'; // Ensure you have the correct path to your CSS file
 
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
