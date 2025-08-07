@@ -1,5 +1,4 @@
-import '../styles/MenuItem.css'; // Adjust the path as necessary
-
+import '../styles/MenuItem.css'; // Must exactly match case and path
 const MenuItem = ({ name, description, price, image }) => {
   return (
     <div className="menu-item">
